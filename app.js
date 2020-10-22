@@ -62,3 +62,6 @@ authorButton.addEventListener("click", () => {
       userContainerEl.innerHTML = usersList;
     });
 });
+
+/* vet att jag kan använda data-userid=${post.id} för att få ut olika posts med olika kommentarer men får inte riktigt ihop det. 
+testade att ha några "fake posts" direkt i html och då funkade båda knapparna som de skulle */
